@@ -3,8 +3,8 @@ Overview
 This code will generate a story based on an image that you input. More information can be found in the [original repo](https://github.com/ryankiros/neural-storyteller). This the code for 'Build an AI Writer' on [Youtube](https://youtu.be/x24VEUEph0Q)
 
 <img src="https://github.com/ryankiros/neural-storyteller/blob/master/images/ex1.jpg" height="220px" align="left">
-*We were barely able to catch the breeze at the beach , and it felt as if someone stepped out of my mind . She was in love with him for the first time in months , so she had no intention of escaping . The sun had risen from the ocean , making her feel more alive than normal . She 's beautiful , but the truth is that I do n't know what to do . The sun was just starting to fade away , leaving people scattered around the Atlantic Ocean . I d seen the men in his life , who guided me at the beach once more .*
 
+*We were barely able to catch the breeze at the beach , and it felt as if someone stepped out of my mind . She was in love with him for the first time in months , so she had no intention of escaping . The sun had risen from the ocean , making her feel more alive than normal . She 's beautiful , but the truth is that I do n't know what to do . The sun was just starting to fade away , leaving people scattered around the Atlantic Ocean . I d seen the men in his life , who guided me at the beach once more.*
 
 
 Dependencies
