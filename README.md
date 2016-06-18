@@ -118,27 +118,35 @@ should output
     I thought
     Hey
 
-## Reference
+Overview
+============
+This code will generate a story based on an image that you input. More information can be found in the [original repo](https://github.com/ryankiros/neural-storyteller). This the code for 'Build an AI Writer' on [Youtube](https://youtu.be/x24VEUEph0Q)
 
-This project does not have any associated paper with it. If you found this code useful, please consider citing:
+Dependencies
+============
 
-Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, Antonio Torralba, Raquel Urtasun, and Sanja Fidler. **"Skip-Thought Vectors."** *arXiv preprint arXiv:1506.06726 (2015).*
+* Python 2.7 - (https://www.python.org/downloads/)
+* Theano - instructions [here](http://deeplearning.net/software/theano/install.html)
+* lasagne - instructions [here](http://lasagne.readthedocs.io/en/latest/user/installation.html)
+* scipy `pip install scipy `
+* numpy `pip install numpy`
 
-    @article{kiros2015skip,
-      title={Skip-Thought Vectors},
-      author={Kiros, Ryan and Zhu, Yukun and Salakhutdinov, Ruslan and Zemel, Richard S and Torralba, Antonio and Urtasun, Raquel and Fidler, Sanja},
-      journal={arXiv preprint arXiv:1506.06726},
-      year={2015}
-    }
+For running on your CPU, you will need to install Caffe and its python interface.
 
-If you also use the BookCorpus data for training new models, please also consider citing:
+Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies
 
-Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, Sanja Fidler.
-**"Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books."** *arXiv preprint arXiv:1506.06724 (2015).*
+Basic Usage
+===========
 
-    @article{zhu2015aligning,
-        title={Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books},
-        author={Zhu, Yukun and Kiros, Ryan and Zemel, Richard and Salakhutdinov, Ruslan and Urtasun, Raquel and Torralba, Antonio and Fidler, Sanja},
-        journal={arXiv preprint arXiv:1506.06724},
-        year={2015}
-    }
+Simply create a new python file in this repo or run this code from the python command line
+
+
+
+Sample output: 
+```shell
+Intent is: discover restaurant
+```
+
+Credits
+===========
+Credit for the vast majority of code here goes to [The SyntaxNet team at Google](https://github.com/tensorflow/models/edit/master/syntaxnet). I've merely created a wrapper around some of the important functions to get people started.
