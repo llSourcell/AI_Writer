@@ -15,7 +15,7 @@ Dependencies
 * Python 2.7 - (https://www.python.org/downloads/)
 * Theano - instructions [here](http://deeplearning.net/software/theano/install.html)
 * lasagne - instructions [here](http://lasagne.readthedocs.io/en/latest/user/installation.html)
-* scipy `pip install scipy `
+* scipy `pip install scipy ` (If all else fails for Windows 10) [here](https://stackoverflow.com/a/39814710/7127317)
 * numpy `pip install numpy`
 
 For running on your CPU, you will need to install Caffe and its python interface.
